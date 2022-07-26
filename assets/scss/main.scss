@@ -1,6 +1,6 @@
 // atoms
 @import 'atoms/variables';
-@import 'atoms/breakpoints';
+//@import 'atoms/breakpoints';
 @import 'atoms/reset';
 @import 'atoms/scroll';
 @import 'atoms/containers';
@@ -17,4 +17,5 @@
 @import 'sections/popups';
 
 // pages
+@import 'pages/temp';
 @import 'pages/home';
