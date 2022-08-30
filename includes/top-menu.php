@@ -1,0 +1,62 @@
+<section id="top-menu">
+
+    <div class="bg"></div>
+
+    <div class="container container-big">
+        <div class="row">
+            <div class="col-12">
+
+                <a href="./" class="logo">
+                    <?php include('assets/svg/logo.php') ?>
+                </a>
+
+                <nav class="menu text-medium">
+                    <ul>
+
+                        <li>
+                            <a href="./" class="active">
+                                Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="projeto.php">
+                                Projeto
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="caio-f.php">
+                                Caio F.
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="amigos.php">
+                                Amigos
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="festival.php">
+                                Festival
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="contato.php">
+                                Contato
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+                <button id="open-fs">
+                    <?php include('assets/svg/menu.php') ?>
+                </button>
+
+            </div>
+        </div>
+    </div>
+</section>

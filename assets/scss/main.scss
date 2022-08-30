@@ -1,14 +1,15 @@
-// atoms
-@import 'atoms/variables';
-//@import 'atoms/breakpoints';
-@import 'atoms/reset';
-@import 'atoms/scroll';
-@import 'atoms/containers';
-@import 'atoms/fonts';
-@import 'atoms/texts';
-@import 'atoms/buttons';
-@import 'atoms/inputs';
-@import 'atoms/animations';
+// use these to create a big main.scss
+@import 'inc/variables';
+@import 'inc/breakpoints';
+@import 'inc/reset';
+@import 'inc/scroll';
+@import 'inc/containers';
+@import 'inc/fonts';
+@import 'inc/texts';
+@import 'inc/buttons';
+@import 'inc/inputs';
+@import 'inc/animations';
+@import 'inc/global';
 
 // sections
 @import 'sections/fs-menu';
@@ -17,5 +18,4 @@
 @import 'sections/popups';
 
 // pages
-@import 'pages/temp';
 @import 'pages/home';

@@ -24,5 +24,5 @@ gulp.task('serve', ['watchFiles'], function(){
     proxy: "localhost/clients/caio-na-memoria-viva/"
   });
   gulp.watch(["assets/scss/**/*.scss"]);
-  gulp.watch(["**/*.php", "includes/*.php"]).on('change', browserSync.reload);
+  gulp.watch(["*.html", "**/*.js"]).on('change', browserSync.reload);
 });

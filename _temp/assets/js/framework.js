@@ -88,5 +88,49 @@ $(document).ready(function() {
 	
 });
 
+// add / subtract quantity function
+$('.form-line').on('click', 'button.add, button.subtract', function() {
+		
+	// Get current quantity values
+	var qty = $(this).closest('.form-line').find('.quantity');
+	var val = parseFloat(qty.val());
+	var max = parseFloat(qty.attr('max'));
+	var min = parseFloat(qty.attr('min'));
+	var step = parseFloat(qty.attr('step'));
+
+	// Change the value if add or subtract
+	if ( $( this ).is( '.add' ) ) {
+		if ( max && ( max <= val ) ) {
+			qty.val( max );
+		} 
+		else {
+			qty.val( val + step );
+		}
+	} 
+	else {
+		if ( min && ( min >= val ) ) {
+			qty.val( min );
+		} 
+		else if ( val > 1 ) {
+			qty.val( val - step );
+		}
+	}
+});
+
+// show / hide password
+$('.show-hide-pass').click(function(e){
+	e.preventDefault();
+	var that = $(this);
+	that.toggleClass('active');
+
+	setTimeout(function() {
+		if (that.hasClass('active')){
+			that.siblings('input').attr('type','text');
+		} else {
+			that.siblings('input').attr('type','password');
+		}
+	}, 30);
+});
+
 // validate forms
-$("#contact-form").validate();
+//$("#contact-form").validate();
