@@ -15,7 +15,7 @@
 
                         <li>
                             <a href="./" class="active">
-                                Home
+                                Início
                             </a>
                         </li>
 
@@ -28,6 +28,12 @@
                         <li>
                             <a href="caio-f.php">
                                 Caio F.
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="visita-guiada.php">
+                                Visita Guiada
                             </a>
                         </li>
 

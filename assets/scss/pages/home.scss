@@ -1,3 +1,41 @@
 body.home {
-	
+	#banner {
+        padding-bottom: 5rem;
+
+        .banner-slider {
+            float: right;
+            width: calc(100% - 1rem);
+            
+            @media #{$mq-sm-min} {
+                width: 94%;
+            }
+
+            .swiper-slide {
+                a {
+                    display: block;
+                    width: 100%;
+                    
+                    img {
+                        width: 100%;
+
+                        &.desk {
+                            display: none;
+
+                            @media #{$mq-md-min} {
+                                display: block;
+                            }
+                        }
+
+                        &.mob {
+                            display: block;
+
+                            @media #{$mq-md-min} {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
