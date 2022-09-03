@@ -38,4 +38,332 @@ body.home {
             }
         }
     }
+
+    #tour {
+        padding: 0;
+
+        @media #{$mq-sm-min} {
+            padding: 2rem 0;
+        }
+
+        @media #{$mq-md-min} {
+            padding: 4rem 0;
+        }
+
+        @media #{$mq-lg-min} {
+            margin-top: 3rem;
+            padding: 7rem 0;
+        }
+
+        @media #{$mq-xl-min} {
+            padding: 10rem 0;
+        }
+
+        .left {
+            position: relative;
+
+            .sunflower {
+                position: absolute;
+                z-index: 0;
+                top: -100px;
+                left: -100px;
+                width: 70%;
+
+                @media #{$mq-sm-min} {
+                    top: -100px;
+                    left: -120px;
+                    width: 300px;
+                }
+
+                @media #{$mq-lg-min} {
+                    width: 400px;
+                    top: -150px;
+                    left: -150px;
+                }
+
+                @media #{$mq-xl-min} {
+                    left: -100px;
+                }
+            }
+
+            .yellow-block {
+                position: absolute;
+                z-index: 1;
+                display: block;
+                width: 40%;
+                height: 50%;
+                background-color: $yellow;
+                bottom: -15px;
+                right: 0;
+
+                @media #{$mq-md-min} {
+                    right: 30px;
+                }
+
+                @media #{$mq-lg-min} {
+                    bottom: -30px;
+                    right: 30px;
+                }
+
+                @media #{$mq-xl-min} {
+                    bottom: -50px;
+                    right: 50px;
+                }
+            }
+
+            .house {
+                display: block;
+                position: relative;
+                z-index: 3;
+                width: 100%;
+                height: 0;
+                padding-bottom: 70%;
+                background: $gray-light url(../img/casa.jpg) center center / cover no-repeat;
+
+                @media #{$mq-md-min} {
+                    width: calc(100% - 30px);
+                    height: 100%;
+                    padding-bottom: 0;
+                }
+
+                @media #{$mq-lg-min} {
+                    width: calc(100% - 50px);
+                }
+
+                @media #{$mq-xl-min} {
+                    width: calc(100% - 100px);
+                }
+            }
+        }
+
+        .right {
+            padding-top: 2rem;
+            padding-bottom: 2.5rem;
+            text-align: center;
+
+            @media #{$mq-md-min} {
+                text-align: left;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                padding-top: 4rem;
+                padding-bottom: 4rem;
+            }
+
+            @media #{$mq-lg-min} {
+                padding-top: 5rem;
+                padding-bottom: 5rem;
+            }
+
+            @media #{$mq-xl-min} {
+                padding-top: 7rem;
+                padding-bottom: 7rem;
+            }
+
+            .title {
+                position: relative;
+                z-index: 1;
+                display: block;
+                margin-bottom: 2rem;
+
+                @media #{$mq-md-min} {
+                    margin-bottom: 3rem;
+                }
+
+                span {
+                    position: relative;
+                    z-index: -1;
+
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        z-index: -1;
+                        top: 10%;
+                        left: -10%;
+                        width: 110%;
+                        height: 80%;
+                        background-color: $yellow;
+                        transform: perspective(1cm) rotateY(-1deg) rotateX(1deg);
+                    }
+                }
+            }
+        }
+    }
+
+    #featured-text {
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        padding: 2rem 0;
+
+        @media #{$mq-sm-min} {
+            padding: 3rem 0;
+        }
+
+        @media #{$mq-md-min} {
+            padding: 8rem 0;
+        }
+
+        @media #{$mq-xl-min} {
+            padding: 4rem 0 8rem 0;
+        }
+
+        .col-12 {
+            position: relative;
+
+            .circle {
+                display: none;
+                position: absolute;
+                z-index: 3;
+                top: -8rem;
+                left: -2rem;
+                width: 5rem;
+                height: 5rem;
+                background-color: $yellow;
+                border-radius: 50%;
+
+                @media #{$mq-md-min} {
+                    display: block;
+                }
+
+                @media #{$mq-xl-min} {
+                    top: -2.5rem;
+                }
+
+                @media #{$mq-2xl-min} {
+                    top: -4rem;
+                    width: 10rem;
+                    height: 10rem;
+                }
+            }
+
+            .trapeze {
+                position: absolute;
+                z-index: 2;
+                display: none;
+                top: -6rem;
+                left: -.5rem;
+                width: 10rem;
+                height: 5rem;
+                background-color: $black;
+
+                @media #{$mq-md-min} {
+                    display: block;
+                }
+
+                @media #{$mq-xl-min} {
+                    left: 0;
+                    top: 0;
+                }
+
+                @media #{$mq-2xl-min} {
+                    width: 16rem;
+                    height: 12rem;
+                }
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    z-index: 1;
+                    top: -1px;
+                    right: -1px;
+                    width: 20%;
+                    height: 100%;
+                    border-style: solid;
+                    border-width: 0 5rem 15rem 0;
+                    border-color: transparent $white transparent transparent;
+                }
+            }
+
+            .sunflower {
+                position: absolute;
+                z-index: 0;
+                right: -5rem;
+                bottom: -8rem;
+                display: none;
+
+                @media #{$mq-sm-min} {
+                    display: block;
+                }
+            }
+
+            .content {
+                position: relative;
+                z-index: 5;
+
+                .desc {
+                    position: relative;
+                    z-index: 1;
+                    display: block;
+                    width: 920px;
+                    max-width: 100%;
+                    margin: 0 auto;
+                    font-size: 24px;
+
+                    @media #{$mq-sm-min} {
+                        max-width: 90%;
+                        font-size: 32px;
+                    }
+                
+                    @media #{$mq-md-min} {
+                        font-size: 36px;
+                    }
+                
+                    @media #{$mq-lg-min} {
+                        font-size: 38px;
+                    }
+                
+                    @media #{$mq-xl-min} {
+                        font-size: 40px;
+                    }
+
+                    .quote-top,
+                    .quote-bottom {
+                        position: absolute;
+                        z-index: -1;
+                        color: $yellow;
+                        width: 2rem;
+                    }
+
+                    .quote-top {
+                        top: -.5rem;
+                        left: 0;
+
+                        @media #{$mq-sm-min} {
+                            left: -1rem;
+                        }
+                    }
+
+                    .quote-bottom {
+                        bottom: -.5rem;
+                        right: 0;
+
+                        @media #{$mq-sm-min} {
+                            right: -1rem;
+                        }
+                    }
+                }
+
+                .author {
+                    color: $gray-light;
+                    display: block;
+                    max-width: 90%;
+                    margin: 1rem auto 0 auto;
+
+                    @media #{$mq-sm-min} {
+                        margin-top: 2rem;
+                    }
+                }
+
+            }
+        }
+    }
+
+    #news {
+
+    }
+
+    #partners {
+
+    }
 }

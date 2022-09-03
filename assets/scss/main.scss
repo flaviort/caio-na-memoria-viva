@@ -1,21 +1,22 @@
 // use these to create a big main.scss
-@import 'inc/variables';
-@import 'inc/breakpoints';
-@import 'inc/reset';
-@import 'inc/scroll';
-@import 'inc/containers';
-@import 'inc/fonts';
-@import 'inc/texts';
-@import 'inc/buttons';
-@import 'inc/inputs';
-@import 'inc/animations';
-@import 'inc/global';
+@import 'atoms/variables';
+@import 'atoms/breakpoints';
+@import 'atoms/reset';
+@import 'atoms/scroll';
+@import 'atoms/containers';
+@import 'atoms/fonts';
+@import 'atoms/texts';
+@import 'atoms/buttons';
+@import 'atoms/inputs';
+@import 'atoms/animations';
+@import 'atoms/global';
 
-// sections
-@import 'sections/fs-menu';
-@import 'sections/top-menu';
-@import 'sections/footer';
-@import 'sections/popups';
+// modules
+@import 'modules/fs-menu';
+@import 'modules/top-menu';
+@import 'modules/footer';
+@import 'modules/popups';
+@import 'modules/partners';
 
 // pages
 @import 'pages/home';

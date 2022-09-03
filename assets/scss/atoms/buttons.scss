@@ -1,0 +1,23 @@
+.black-button {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background-color: $black;
+    color: $white;
+    transition: .3s;
+    padding: .75rem 2rem;
+
+    @media #{$mq-md-min} {
+        padding: 1rem 3rem;
+    }
+
+    @media #{$mq-lg-min} {
+        padding: 1.25rem 4rem;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $yellow;
+        color: $black;
+    }
+}

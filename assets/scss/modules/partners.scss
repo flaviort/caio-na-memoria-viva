@@ -1,0 +1,21 @@
+#partners {
+    .desk {
+        display: none;
+        width: 100%;
+        margin: 0 auto;
+
+        @media #{$mq-lg-min} {
+            display: block;
+        }
+    }
+
+    .mob {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+
+        @media #{$mq-lg-min} {
+            display: none;
+        }
+    }
+}

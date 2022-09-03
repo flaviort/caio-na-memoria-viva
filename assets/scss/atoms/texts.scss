@@ -8,7 +8,6 @@
 	font-variant: no-common-ligatures;
 	letter-spacing: 1px;
 
-
 	strong, b {
 		font-size: inherit;
 		line-height: inherit;
@@ -84,11 +83,11 @@
 }
 
 .text-bigger {
-	font-size: 32px;
+	font-size: 28px;
 	line-height: 1.4;
 
 	@media #{$mq-sm-min} {
-		font-size: 34px;
+		font-size: 32px;
 	}
 
 	@media #{$mq-md-min} {
@@ -135,7 +134,7 @@
 
 .title-medium {
 	font-size: 20px;
-	line-height: 1.2;
+	line-height: 1.5;
 
 	@media #{$mq-md-min} {
 		font-size: 22px;
@@ -156,7 +155,7 @@
 
 .title-big {
 	font-size: 30px;
-	line-height: 1.2;
+	line-height: 1.5;
 
 	@media #{$mq-sm-min} {
 		font-size: 34px;
@@ -169,11 +168,15 @@
 	@media #{$mq-xl-min} {
 		font-size: 40px;
 	}
+
+	@media #{$mq-2xl-min} {
+		font-size: 46px;
+	}
 }
 
 .title-bigger {
 	font-size: 50px;
-	line-height: .85;
+	line-height: 1.5;
 
 	@media #{$mq-sm-min} {
 		font-size: 60px;
