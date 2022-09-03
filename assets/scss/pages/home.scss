@@ -1,13 +1,179 @@
 body.home {
 	#banner {
         padding-bottom: 5rem;
+        position: relative;
+
+        .banner-slider-nav {
+            text-align: center;
+            position: relative;
+            z-index: 3;
+            top: auto;
+            left: auto;
+            bottom: auto;
+            right: auto;
+
+            @media #{$mq-md-min} {
+                width: 4rem;
+                padding-left: 1.5rem;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+            @media #{$mq-lg-min} {
+                top: 2rem;
+            }
+
+            @media #{$mq-xl-min} {
+                width: 6rem;
+            }
+
+            @media #{$mq-2xl-min} {
+                top: 5rem;
+            }
+
+            .swiper-pagination-bullet {
+                display: inline-block;
+                position: relative;
+                background-color: transparent;
+                width: auto;
+                height: auto;
+                opacity: .3;
+                border-radius: 0;
+                margin: 1rem .5rem 0 .65rem;
+
+                @media #{$mq-sm-min} {
+                    margin: 1rem .75rem 0 .75rem;
+                }
+
+                @media #{$mq-md-min} {
+                    display: block;
+                    margin-bottom: .75rem;
+                    margin-left: 0;
+                    margin-right: 0;
+                }
+
+                @media #{$mq-lg-min} {
+                    margin-bottom: 1.5rem;
+                }
+
+                @media #{$mq-2xl-min} {
+                    margin-bottom: 2rem;
+                }
+
+                &.swiper-pagination-bullet-active {
+                    opacity: 1;
+
+                    p {
+                        &:after {
+                            transform: translateX(-50%) scaleY(100%);
+
+                            @media #{$mq-md-min} {
+                                transform: translateY(-50%) scaleX(100%);
+                            }
+                        }
+                    }
+                }
+
+                p {
+                    font-size: 14px;
+                    position: relative;
+                    display: inline-block;
+
+                    @media #{$mq-sm-min} {
+                        font-size: 16px;
+                    }
+
+                    @media #{$mq-md-min} {
+                        font-size: 10px;
+                    }
+
+                    @media #{$mq-lg-min} {
+                        font-size: 14px;
+                    }
+
+                    @media #{$mq-2xl-min} {
+                        font-size: 16px;
+                    }
+
+                    &:before {
+                        content: "0";
+                    }
+
+                    &:after {
+                        content: "";
+                        position: absolute;
+                        background-color: $black;
+                        transition: .3s;
+                        width: 1px;
+                        height: 5vh;
+                        left: 50%;
+                        transform: translateX(-50%) scaleY(0);
+                        transform-origin: 0 100%;
+                        bottom: 1.75rem;
+
+                        @media #{$mq-md-min} {
+                            bottom: auto;
+                            top: 50%;
+                            left: 27px;
+                            transform: translateY(-50%) scaleX(0);
+                            transform-origin: 0 0;
+                            width: 7vw;
+                            height: 1px;
+                        }
+
+                        @media #{$mq-lg-min} {
+                            left: 35px;
+                            height: 2px;
+                        }
+
+                        @media #{$mq-2xl-min} {
+                            left: 50px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .social {
+            position: absolute;
+            z-index: 2;
+            bottom: 1rem;
+            left: 2rem;
+
+            ul {
+                li {
+                    display: block;
+                    margin-top: 1rem;
+
+                    a {
+                        display: block;
+                        position: relative;
+                        width: 5rem;
+                        height: 5rem;
+                        padding: .5rem;
+                        color: $black;
+                    }
+                }
+            }
+        }
 
         .banner-slider {
+            position: relative;
+            z-index: 0;
             float: right;
             width: calc(100% - 1rem);
-            
+
             @media #{$mq-sm-min} {
-                width: 94%;
+                width: calc(100% - 2rem);
+            }
+
+            @media #{$mq-md-min} {
+                width: calc(100% - 4rem);
+            }
+            
+            @media #{$mq-xl-min} {
+                width: calc(100% - 6rem);
             }
 
             .swiper-slide {

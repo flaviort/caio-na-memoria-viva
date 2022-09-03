@@ -14,4 +14,11 @@ var banner_slider = new Swiper ('.banner-slider', {
 		disableOnInteraction: false,
 		pauseOnMouseEnter: false,
 	},
+	pagination: {
+		el: '.banner-slider-nav',
+		clickable: true,
+		renderBullet: function (index, className) {
+			return '<span class="' + className + '">' + '<p class="title-medium">' + [index+1] + '</p>' + '</span>';
+		},
+	},
 });

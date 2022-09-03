@@ -29,15 +29,22 @@
 
 										<div class="swiper-slide">
 											<a href="#">
-												<img src="assets/img/banner-02-desk.jpg" alt="Visita online pelos caminhos da poesia em Santiago!" class="desk">
-												<img src="assets/img/banner-02-mob.jpg" alt="Visita online pelos caminhos da poesia em Santiago!" class="mob">
+												<img src="assets/img/banner-02-desk.jpg" alt="24h de Caio na Cultura em Santiago!" class="desk">
+												<img src="assets/img/banner-02-mob.jpg" alt="24h de Caio na Cultura em Santiago!" class="mob">
 											</a>
 										</div>
 
 										<div class="swiper-slide">
 											<a href="#">
-												<img src="assets/img/banner-03-desk.jpg" alt="Visita online pelos caminhos da poesia em Santiago!" class="desk">
-												<img src="assets/img/banner-03-mob.jpg" alt="Visita online pelos caminhos da poesia em Santiago!" class="mob">
+												<img src="assets/img/banner-03-desk.jpg" alt="Valorize a obra e o Universo de Caio" class="desk">
+												<img src="assets/img/banner-03-mob.jpg" alt="Valorize a obra e o Universo de Caio" class="mob">
+											</a>
+										</div>
+
+										<div class="swiper-slide">
+											<a href="#">
+												<img src="assets/img/banner-04-desk.jpg" alt="Sarau online Caio Entre Nós" class="desk">
+												<img src="assets/img/banner-04-mob.jpg" alt="Sarau online Caio Entre Nós" class="mob">
 											</a>
 										</div>
 
@@ -45,6 +52,14 @@
 								</div>
 
 								<div class="cf"></div>
+
+								<div class="banner-slider-nav"></div>
+
+								<nav class="social">
+									<ul>
+										<?php include('includes/social.php') ?>
+									</ul>
+								</nav>
 								
 							</div>
 						</div>
