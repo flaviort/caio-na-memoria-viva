@@ -13,6 +13,9 @@
 
 				<!-- banner -->
 				<section id="banner">
+
+					<div class="bg"></div>
+					
 					<div class="container-fluid no-padding">
 						<div class="row">
 							<div class="col-12">

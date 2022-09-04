@@ -1,0 +1,172 @@
+#banner-internal {
+    padding-bottom: 3rem;
+    position: relative;
+
+    @media #{$mq-md-min} {
+        padding-bottom: 5rem;
+    }
+
+    .bg {
+        position: absolute;
+        z-index: 0;
+        display: block;
+        width: 40vw;
+        height: 70%;
+        background-color: $yellow;
+        top: -100px;
+        right: -10vw;
+        transform: skewX(-10deg);
+
+        @media #{$mq-sm-min} {
+            width: 60vw;
+        }
+
+        @media #{$mq-md-min} {
+            top: auto;
+            bottom: 0;
+            height: 200%;
+        }
+
+        @media #{$mq-lg-min} {
+            width: 73vw;
+        }
+
+        @media #{$mq-xl-min} {
+            width: 70vw;
+        }
+    }
+
+    .container-fluid {
+        position: relative;
+        z-index: 2;
+    
+        .social {
+            position: absolute;
+            z-index: 2;
+            bottom: 0;
+            left: 0;
+            padding-left: 1rem;
+            text-align: center;
+            display: none;
+
+            @media #{$mq-md-min} {
+                display: block;
+                width: 5rem;
+            }
+
+            @media #{$mq-xl-min} {
+                width: 7rem;
+            }
+
+            ul {
+                li {
+                    display: block;
+                    margin: .75rem auto 0 auto;
+
+                    @media #{$mq-lg-min} {
+                        margin-top: 1rem;
+                    }
+
+                    a {
+                        display: block;
+                        margin: 0 auto;
+                        position: relative;
+                        width: 2rem;
+                        height: 2rem;
+                        padding: .4rem;
+                        color: $black;
+                        transition: .3s;
+
+                        @media #{$mq-lg-min} {
+                            width: 2.5rem;
+                            height: 2.5rem;
+                            padding: .5rem;
+                        }
+
+                        &:hover,
+                        &:focus {
+                            color: $gray-light;
+                        }
+                    }
+                }
+            }
+        }
+
+        .image {
+            position: relative;
+            overflow: hidden;
+            z-index: 0;
+            float: right;
+            width: calc(100% - 1rem);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color: $gray-dark;
+            text-align: center;
+            padding: 5rem 1rem;
+
+            @media #{$mq-sm-min} {
+                width: calc(100% - 2rem);
+            }
+
+            @media #{$mq-md-min} {
+                width: calc(100% - 4rem);
+                padding: 7rem 0;
+            }
+            
+            @media #{$mq-xl-min} {
+                padding: 10rem 0;
+                width: calc(100% - 6rem);
+            }
+
+            .sunflower-01 {
+                position: absolute;
+                z-index: 0;
+                top: -3rem;
+                left: -5rem;
+                width: 200px;
+
+                @media #{$mq-md-min} {
+                    top: -4rem;
+                    left: -4rem;
+                    width: 300px;
+                }
+
+                @media #{$mq-xl-min} {
+                    top: -5rem;
+                    left: -5rem;
+                    width: 500px;
+                }
+            }
+
+            .sunflower-02 {
+                position: absolute;
+                z-index: 0;
+                bottom: -4rem;
+                right: -1rem;
+                width: 150px;
+
+                @media #{$mq-md-min} {
+                    right: -2rem;
+                    width: 250px;
+                    bottom: -6rem;
+                }
+
+                @media #{$mq-xl-min} {
+                    bottom: -5rem;
+                    right: 2rem;
+                }
+            }
+
+            .trapeze-title {
+                position: relative;
+                z-index: 2;
+                color: $white;
+
+                span {
+                    color: $black;
+                }
+            }
+        }
+    }
+}

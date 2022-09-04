@@ -1,7 +1,4 @@
 <section id="top-menu">
-
-    <div class="bg"></div>
-
     <div class="container container-big">
         <div class="row">
             <div class="col-12">
@@ -19,16 +16,40 @@
                             </a>
                         </li>
 
-                        <li>
-                            <a href="projeto.php">
-                                Projeto
-                            </a>
-                        </li>
+                        <li class="has-sub">
+                            <p>
+                                Sobre
+                            </p>
 
-                        <li>
-                            <a href="caio-f.php">
-                                Caio F.
-                            </a>
+                            <div class="sub">
+                                <ul>
+                                    
+                                    <li>
+                                        <a href="projeto.php">
+                                            Projeto
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="caio-f.php">
+                                            Caio F.
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="amigos.php">
+                                            Amigos
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="festival.php">
+                                            Festival
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
                         </li>
 
                         <li>
@@ -38,14 +59,8 @@
                         </li>
 
                         <li>
-                            <a href="amigos.php">
-                                Amigos
-                            </a>
-                        </li>
-
-                        <li>
-                            <a href="festival.php">
-                                Festival
+                            <a href="novidades.php">
+                                Novidades
                             </a>
                         </li>
 

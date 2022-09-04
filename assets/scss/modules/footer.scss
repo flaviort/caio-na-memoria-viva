@@ -13,7 +13,7 @@
         position: relative;
 
         .col-12 {
-            @media #{$mq-xl-min} {
+            @media #{$mq-2xl-min} {
                 display: flex;
                 align-items: center;
                 justify-content: space-between;
@@ -28,15 +28,11 @@
                 max-width: 90%;
 
                 @media #{$mq-lg-min} {
-                    width: 25rem;
-                }
-
-                @media #{$mq-xl-min} {
-                    margin: 0;
                     width: 22vw;
                 }
 
                 @media #{$mq-2xl-min} {
+                    margin: 0;
                     width: 25rem;
                 }
 
@@ -54,55 +50,42 @@
             .right {
                 text-align: center;
 
-                @media #{$mq-xl-min} {
+                @media #{$mq-2xl-min} {
                     text-align: right;
                     display: flex;
                     align-items: center;
-                    column-gap: 1.5rem;
                     justify-content: flex-end;
-                }
-
-                @media #{$mq-2xl-min} {
                     column-gap: 3rem;
                 }
 
                 .menu {
                     margin: 1.5rem auto 2rem auto;
 
-                    @media #{$mq-md-min} {
+                    @media #{$mq-lg-min} {
                         margin: 3rem auto;
                     }
 
-                    @media #{$mq-xl-min} {
+                    @media #{$mq-2xl-min} {
                         margin: 0;
                     }
 
                     ul {
-                        @media #{$mq-md-min} {
+                        @media #{$mq-lg-min} {
                             display: flex;
                             align-items: center;
                             justify-content: center;
                             column-gap: 1.5rem;
                         }
 
-                        @media #{$mq-lg-min} {
-                            column-gap: 2rem;
-                        }
-
-                        @media #{$mq-xl-min} {
-                            column-gap: 1rem;
-                            justify-content: flex-end;
-                        }
-
                         @media #{$mq-2xl-min} {
-                            column-gap: 3rem;
+                            column-gap: 2.5rem;
                         }
 
                         li {
                             display: block;
                             margin: .5rem auto;
 
-                            @media #{$mq-md-min} {
+                            @media #{$mq-lg-min} {
                                 margin: 0;
                             }
 
@@ -142,7 +125,7 @@
                         justify-content: center;
                         column-gap: 1rem;
 
-                        @media #{$mq-xl-min} {
+                        @media #{$mq-2xl-min} {
                             justify-content: flex-end;
                         }
 
@@ -297,6 +280,19 @@
                     }
                 }
             }
+        }
+    }
+}
+
+body:not(.home) {
+    #footer {
+        border-top: 1px solid $almost-white;
+        padding-top: 3rem;
+        margin-top: 3rem;
+
+        @media #{$mq-sm-min} {
+            padding-top: 4rem;
+            margin-top: 4rem;
         }
     }
 }

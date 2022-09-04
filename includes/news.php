@@ -15,7 +15,7 @@
                             <span>nas Novidades</span>
                         </p>
 
-                        <a href="festival.php" class="text-medium">
+                        <a href="novidades.php" class="text-medium">
                             ver todas as novidades
                         </a>
 
@@ -42,7 +42,7 @@
                         <div class="swiper-wrapper">
 
                             <div class="swiper-slide">
-                                <a href="festival-interna.php" class="news-block">
+                                <a href="novidades-interna.php" class="news-block">
 
                                     <div class="image">
 
@@ -61,7 +61,7 @@
                                     <div class="content">
 
                                         <h2 class="text-medium-big title">
-                                            Nosso projeto Caio na Memória Viva já começou no dia 03 de junho, com muitas reuniões da equipe na sua pré produção...
+                                            Nosso projeto Caio na Memória Viva já começou no dia 03 de junho, com muitas...
                                         </h2>
 
                                         <p class="text-medium link">
@@ -74,7 +74,7 @@
                             </div>
 
                             <div class="swiper-slide">
-                                <a href="festival-interna.php" class="news-block">
+                                <a href="novidades-interna.php" class="news-block">
 
                                     <div class="image">
 
@@ -93,7 +93,7 @@
                                     <div class="content">
 
                                         <h2 class="text-medium-big title">
-                                            Conheça quem está fazendo! Com um site inovador, sarau online com artistas e amigos do escritor...
+                                            Conheça quem está fazendo! Com um site inovador, sarau online com artistas e...
                                         </h2>
 
                                         <p class="text-medium link">
@@ -106,7 +106,7 @@
                             </div>
 
                             <div class="swiper-slide">
-                                <a href="festival-interna.php" class="news-block">
+                                <a href="novidades-interna.php" class="news-block">
 
                                     <div class="image">
 

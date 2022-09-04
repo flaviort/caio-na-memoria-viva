@@ -31,12 +31,6 @@
                         </li>
 
                         <li>
-                            <a href="visita-guiada.php">
-                                Visita Guiada
-                            </a>
-                        </li>
-
-                        <li>
                             <a href="amigos.php">
                                 Amigos
                             </a>
@@ -45,6 +39,18 @@
                         <li>
                             <a href="festival.php">
                                 Festival
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="visita-guiada.php">
+                                Visita Guiada
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="novidades.php">
+                                Novidades
                             </a>
                         </li>
 
