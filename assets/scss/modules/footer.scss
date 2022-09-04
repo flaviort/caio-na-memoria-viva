@@ -172,7 +172,7 @@
 
     .bottom {
         position: relative;
-        padding-top: 2.5rem;
+        padding-top: 2rem;
         padding-bottom: 1.5rem;
         margin-top: 2.5rem;
 
@@ -186,12 +186,14 @@
             z-index: 0;
             bottom: -.5rem;
             left: 0;
-            width: 100%;
-            height: 100%;
+            width: 110%;
+            height: 110%;
             color: $yellow;
             background-color: $yellow;
+            transform: skewY(-3deg);
 
             @media #{$mq-sm-min} {
+                transform: none;
                 background-color: transparent;
             }
 

@@ -1,6 +1,7 @@
 .text-small,
 .text-medium-small,
 .text-medium,
+.text-medium-big,
 .text-big,
 .text-bigger {
 	font-family: $source;
@@ -58,6 +59,19 @@
 
 	@media #{$mq-xl-min} {
 		font-size: 20px;
+	}
+}
+
+.text-medium-big {
+	font-size: 18px;
+	line-height: 1.6;
+
+	@media #{$mq-sm-min} {
+		font-size: 20px;
+	}
+
+	@media #{$mq-xl-min} {
+		font-size: 22px;
 	}
 }
 

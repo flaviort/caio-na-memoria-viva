@@ -1,0 +1,21 @@
+.trapeze-title {
+    position: relative;
+    z-index: 1;
+
+    span {
+        position: relative;
+        z-index: -1;
+
+        &:before {
+            content: "";
+            position: absolute;
+            z-index: -1;
+            top: 10%;
+            left: -10%;
+            width: 110%;
+            height: 80%;
+            background-color: $yellow;
+            transform: perspective(1cm) rotateY(-1deg) rotateX(1deg);
+        }
+    }
+}

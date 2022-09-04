@@ -1,0 +1,171 @@
+#news {
+    position: relative;
+    
+    @media #{$mq-sm-min} {
+        overflow: hidden;
+    }
+
+    .bg {
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 80%;
+        background-color: $black;
+        transform: skewY(3deg);
+
+        @media #{$mq-sm-min} {
+            height: 100%;
+            left: -25vw;
+            width: 120vw;
+            transform: skewX(10deg);
+        }
+
+        @media #{$mq-lg-min} {
+            left: -35vw;
+            width: 110vw;
+            transform: skewX(20deg);
+        }
+    }
+
+    .container {
+        position: relative;
+        z-index: 2;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+        @media #{$mq-sm-min} {
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+        }
+
+        .top {
+            @media #{$mq-lg-min} {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .left {
+                text-align: center;
+
+                @media #{$mq-lg-min} {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    min-width: 60%;
+                    text-align: left;
+                }
+
+                .trapeze-title {
+                    display: block;
+                    color: $white;
+    
+                    span {
+                        color: $black;
+                    }
+                }
+
+                a {
+                    display: inline-block;
+                    margin: 1.5rem auto 2rem auto;
+                    color: $white;
+                    transition: .3s;
+                    border-bottom: 1px solid $white;
+
+                    @media #{$mq-md-min} {
+                        margin-bottom: 3rem;
+                    }
+
+                    @media #{$mq-lg-min} {
+                        margin: 1rem 0 0 0;
+                    }
+
+                    &:hover,
+                    &:focus {
+                        border-color: $yellow;
+                        color: $yellow;
+                    }
+                }
+            }
+
+            .right {
+                @media #{$mq-lg-min} {
+                    min-width: 40%;
+                }
+
+                .news-slider-nav {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    @media #{$mq-lg-min} {
+                        justify-content: flex-end;
+                    }
+
+                    button {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 3rem;
+                        height: 3rem;
+                        margin-left: .25rem;
+                        margin-right: .25rem;
+                        padding: 1rem;
+                        border-radius: 50%;
+                        background-color: transparent;
+                        box-shadow: inset 0 0 0 1px $white;
+                        color: $white;
+                        transition: .3s;
+
+                        @media #{$mq-sm-min} {
+                            width: 4rem;
+                            height: 4rem;
+                            margin-left: .5rem;
+                            margin-right: .5rem;
+                            padding: 1.35rem;
+                        }
+
+                        @media #{$mq-lg-min} {
+                            margin-left: 1rem;
+                            margin-right: 0;
+                            width: 5rem;
+                            height: 5rem;
+                            padding: 1.75rem;
+                            background-color: $almost-white;
+                            color: $black;
+                            box-shadow: none;
+                        }
+
+                        &:hover,
+                        &:focus {
+                            background-color: $yellow;
+                            box-shadow: inset 0 0 0 1px $yellow;
+                            color: $black;
+
+                            @media #{$mq-lg-min} {
+                                box-shadow: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            .news-slider {
+                width: 100vw;
+                margin-top: 2rem;
+
+                @media #{$mq-sm-min} {
+                    margin-top: 3rem;
+                }
+
+                @media #{$mq-lg-min} {
+                    margin-top: 4rem;
+                }
+            }
+        }
+    }
+}

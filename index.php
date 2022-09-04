@@ -82,7 +82,7 @@
 							<div class="col-md-5 right">
 								<div>
 
-									<p class="title-big title">
+									<p class="title-big trapeze-title">
 										Acesse a <br />
 										<span>Visita Guiada</span>
 									</p>
@@ -140,7 +140,6 @@
 
 				<!-- partners -->
 				<?php include('includes/partners.php'); ?>
-
 
 			</main>
 
