@@ -87,6 +87,3 @@ $(document).ready(function() {
 	setTimeout(function(){ replaceSvg(); }, 3000)
 	
 });
-
-// validate forms
-$("#contact-form").validate();

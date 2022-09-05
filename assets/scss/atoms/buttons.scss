@@ -21,3 +21,52 @@
         color: $black;
     }
 }
+
+.hollow-black-button {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background-color: transparent;
+    border: 1px solid $black;
+    color: $black;
+    transition: .3s;
+    padding: .75rem 2rem;
+
+    @media #{$mq-md-min} {
+        padding: 1rem 3rem;
+    }
+
+    @media #{$mq-lg-min} {
+        padding: 1.25rem 4rem;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $black;
+        color: $white;
+    }
+}
+
+.yellow-button {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background-color: $yellow;
+    color: $black;
+    transition: .3s;
+    padding: .75rem 2rem;
+
+    @media #{$mq-md-min} {
+        padding: 1rem 3rem;
+    }
+
+    @media #{$mq-lg-min} {
+        padding: 1.25rem 4rem;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $white;
+        color: $black;
+    }
+}

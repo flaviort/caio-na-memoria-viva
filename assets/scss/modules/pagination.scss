@@ -1,0 +1,34 @@
+#pagination {
+    text-align: center;
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+
+        li {
+            a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 3rem;
+                height: 3rem;
+                background-color: $almost-white;
+                color: $black;
+                border-radius: 50%;
+                transition: .3s;
+
+                &:hover,
+                &:focus {
+                    background-color: $gray-lightest;
+                }
+
+                &.active {
+                    background-color: $yellow;
+                }
+            }
+        }
+    }
+}

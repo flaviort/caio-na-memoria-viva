@@ -117,6 +117,7 @@
 	}
 }
 
+.title-small,
 .title-medium,
 .title-big,
 .title-bigger {
@@ -143,6 +144,15 @@
 	small {
 		font-size: 45%;
 		vertical-align: super;
+	}
+}
+
+.title-small {
+	font-size: 18px;
+	line-height: 1.5;
+
+	@media #{$mq-md-min} {
+		font-size: 20px;
 	}
 }
 
@@ -176,15 +186,15 @@
 	}
 
 	@media #{$mq-lg-min} {
-		font-size: 36px;
-	}
-
-	@media #{$mq-xl-min} {
 		font-size: 40px;
 	}
 
-	@media #{$mq-2xl-min} {
+	@media #{$mq-xl-min} {
 		font-size: 46px;
+	}
+
+	@media #{$mq-2xl-min} {
+		font-size: 52px;
 	}
 }
 

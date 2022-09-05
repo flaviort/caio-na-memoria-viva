@@ -120,8 +120,11 @@
                             padding: .75rem 1.5rem;
 
                             li {
+                                margin: .25rem 0;
+
                                 a {
                                     &:before {
+                                        height: 2px;
                                         background-color: $black;
                                     }
                                 }

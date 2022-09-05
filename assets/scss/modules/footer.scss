@@ -288,11 +288,9 @@ body:not(.home) {
     #footer {
         border-top: 1px solid $almost-white;
         padding-top: 3rem;
-        margin-top: 3rem;
 
         @media #{$mq-sm-min} {
             padding-top: 4rem;
-            margin-top: 4rem;
         }
     }
 }
