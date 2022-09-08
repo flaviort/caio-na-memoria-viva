@@ -1,5 +1,6 @@
 #news {
     position: relative;
+    z-index: 4;
     
     @media #{$mq-sm-min} {
         overflow: hidden;

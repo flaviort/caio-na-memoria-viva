@@ -23,9 +23,12 @@
 @import 'modules/banner-internal';
 @import 'modules/project-block';
 @import 'modules/pagination';
+@import 'modules/share';
 
 // pages
 @import 'pages/home';
 @import 'pages/project';
+@import 'pages/blog-internal';
 @import 'pages/caio-f';
+@import 'pages/news';
 @import 'pages/contact';

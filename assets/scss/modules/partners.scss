@@ -9,12 +9,26 @@
         }
     }
 
+    .tablet {
+        display: none;
+        width: 100%;
+        margin: 0 auto;
+
+        @media #{$mq-sm-min} {
+            display: block;
+        }
+
+        @media #{$mq-lg-min} {
+            display: none;
+        }
+    }
+
     .mob {
         display: block;
         width: 100%;
         margin: 0 auto;
 
-        @media #{$mq-lg-min} {
+        @media #{$mq-sm-min} {
             display: none;
         }
     }
