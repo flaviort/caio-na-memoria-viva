@@ -15,7 +15,7 @@
                             <span>nas Novidades</span>
                         </p>
 
-                        <a href="novidades.php" class="text-medium">
+                        <a href="projeto.php" class="text-medium">
                             ver todas as novidades
                         </a>
 
@@ -42,7 +42,7 @@
                         <div class="swiper-wrapper">
 
                             <div class="swiper-slide">
-                                <a href="novidades-interna.php" class="news-block">
+                                <a href="projeto-interna.php" class="news-block">
 
                                     <div class="image">
 
@@ -74,7 +74,7 @@
                             </div>
 
                             <div class="swiper-slide">
-                                <a href="novidades-interna.php" class="news-block">
+                                <a href="projeto-interna.php" class="news-block">
 
                                     <div class="image">
 
@@ -106,7 +106,7 @@
                             </div>
 
                             <div class="swiper-slide">
-                                <a href="novidades-interna.php" class="news-block">
+                                <a href="projeto-interna.php" class="news-block">
 
                                     <div class="image">
 

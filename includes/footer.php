@@ -21,12 +21,6 @@
                                 </li>
         
                                 <li>
-                                    <a href="projeto.php">
-                                        Projeto
-                                    </a>
-                                </li>
-        
-                                <li>
                                     <a href="caio-f.php">
                                         Caio F.
                                     </a>
@@ -51,8 +45,8 @@
                                 </li>
 
                                 <li>
-                                    <a href="novidades.php">
-                                        Novidades
+                                    <a href="projeto.php">
+                                        Projeto
                                     </a>
                                 </li>
         

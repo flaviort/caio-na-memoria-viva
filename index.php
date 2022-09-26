@@ -24,14 +24,14 @@
 									<div class="swiper-wrapper">
 
 										<div class="swiper-slide">
-											<a href="#">
+											<a href="visita-guiada.php">
 												<img src="assets/img/banner-01-desk.jpg" alt="Visita online pelos caminhos da poesia em Santiago!" class="desk">
 												<img src="assets/img/banner-01-mob.jpg" alt="Visita online pelos caminhos da poesia em Santiago!" class="mob">
 											</a>
 										</div>
 
 										<div class="swiper-slide">
-											<a href="#">
+											<a href="visita-guiada.php">
 												<img src="assets/img/banner-02-desk.jpg" alt="24h de Caio na Cultura em Santiago!" class="desk">
 												<img src="assets/img/banner-02-mob.jpg" alt="24h de Caio na Cultura em Santiago!" class="mob">
 											</a>
