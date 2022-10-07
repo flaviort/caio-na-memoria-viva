@@ -3,7 +3,8 @@
 .text-medium,
 .text-medium-big,
 .text-big,
-.text-bigger {
+.text-bigger,
+.fancybox-caption {
 	font-family: $source;
 	font-weight: $regular;
 	font-variant: no-common-ligatures;
@@ -49,7 +50,8 @@
 	}
 }
 
-.text-medium {
+.text-medium,
+.fancybox-caption {
 	font-size: 16px;
 	line-height: 1.6;
 

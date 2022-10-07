@@ -24,6 +24,8 @@
 @import 'modules/project-block';
 @import 'modules/pagination';
 @import 'modules/share';
+@import 'modules/tour-map';
+@import 'modules/tour-points';
 
 // pages
 @import 'pages/home';
@@ -33,6 +35,7 @@
 @import 'pages/friends';
 @import 'pages/festival';
 @import 'pages/tour';
+@import 'pages/tour-internal';
 @import 'pages/news';
 @import 'pages/contact';
 @import 'pages/error';

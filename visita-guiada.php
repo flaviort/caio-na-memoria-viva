@@ -55,40 +55,7 @@
 									Para saber mais sobre cada ponto de interesse, clique nos "números" animados no mapa. Clique e arraste o mouse para descobrir mais pontos!
 								</p>
 
-								<div class="tour">
-									
-									<button class="plus text-medium zoom-in" onclick="panzoom.zoomIn()">+</button>
-									<button class="minus text-medium zoom-out" onclick="panzoom.zoomOut()">-</button>
-
-									<div id="panzoom">
-
-										<a href="#" class="pin pin-01 text-medium" aria-label="Estação do Conhecimento" data-balloon-pos="up">
-											<span class="circle"></span>
-											<b>1</b>
-										</a>
-
-										<a href="#" class="pin pin-02 text-medium" aria-label="Rua dos Poetas" data-balloon-pos="up">
-											<span class="circle"></span>
-											<b>2</b>
-										</a>
-
-										<a href="#" class="pin pin-03 text-medium" aria-label="Praça Moisés Viana" data-balloon-pos="up">
-											<span class="circle"></span>
-											<b>3</b>
-										</a>
-
-										<a href="#" class="pin pin-04 text-medium" aria-label="Memorial" data-balloon-pos="up">
-											<span class="circle"></span>
-											<b>4</b>
-										</a>
-										
-										<svg class="line" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1980.81 1328.91"><polyline points="0.48 271.93 315.78 246.65 743.63 187.16 807.79 748.56 890.32 1320.46 1007.36 1272.87 1104.04 1185.58 1276.56 871.3 1976.14 3.77"/></svg>
-
-										<img src="assets/img/map.png" alt="" class="map">
-
-									</div>
-
-								</div>
+								<?php include('includes/tour-map.php') ?>
 
 								<div class="row infos text-medium">
 
@@ -98,28 +65,10 @@
 										</p>
 									</div>
 
-									<div class="col-sm-6">
-										<a href="#" class="hvr-bounce-to-right">
-											<b>1)</b> Estação do Conhecimento
-										</a>
-									</div>
-
-									<div class="col-sm-6">
-										<a href="#" class="hvr-bounce-to-right">
-											<b>2)</b> Rua dos Poetas
-										</a>
-									</div>
-
-									<div class="col-sm-6">
-										<a href="#" class="hvr-bounce-to-right">
-											<b>3)</b> Praça Moisés Viana
-										</a>
-									</div>
-
-									<div class="col-sm-6">
-										<a href="#" class="hvr-bounce-to-right">
-											<b>4)</b> Memorial
-										</a>
+									<div class="tour-points">
+										<div class="row">
+											<?php include('includes/tour-points.php') ?>
+										</div>
 									</div>
 
 								</div>
