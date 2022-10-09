@@ -17,31 +17,31 @@
 </div>
 
 <div class="col-sm-6 col-lg-4">
-    <a href="visita-guiada-continuacao-rua-dos-poetas.php" class="hvr-bounce-to-right">
-        <b>2.2)</b> Continuação - Rua dos Poetas
+    <a href="visita-guiada-rua-dos-poetas-continuacao.php" class="hvr-bounce-to-right">
+        <b>2.2)</b> Rua dos Poetas - Continuação
     </a>
 </div>
 
 <div class="col-sm-6 col-lg-4">
-    <a href="visita-guiada-continuacao-rua-dos-poetas-2.php" class="hvr-bounce-to-right">
-        <b>2.3)</b> Continuação - Rua dos Poetas
+    <a href="visita-guiada-rua-dos-poetas-continuacao-2.php" class="hvr-bounce-to-right">
+        <b>2.3)</b> Rua dos Poetas - Continuação
     </a>
 </div>
 
 <div class="col-sm-6 col-lg-4">
-    <a href="visita-guiada-continuacao-rua-dos-poetas-3.php" class="hvr-bounce-to-right">
-        <b>2.4)</b> Continuação - Rua dos Poetas
+    <a href="visita-guiada-rua-dos-poetas-continuacao-3.php" class="hvr-bounce-to-right">
+        <b>2.4)</b> Rua dos Poetas - Continuação
     </a>
 </div>
 
 <div class="col-sm-6 col-lg-4">
-    <a href="visita-guiada-praca-mouses-viana.php" class="hvr-bounce-to-right">
+    <a href="visita-guiada-praca-moises-viana.php" class="hvr-bounce-to-right">
         <b>3)</b> Praça Moisés Viana
     </a>
 </div>
 
 <div class="col-sm-6 col-lg-4">
-    <a href="visita-guiada-momorial.php" class="hvr-bounce-to-right">
+    <a href="visita-guiada-memorial.php" class="hvr-bounce-to-right">
         <b>4)</b> Memorial
     </a>
 </div>

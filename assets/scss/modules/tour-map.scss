@@ -80,6 +80,46 @@
             height: 2.5rem;
         }
 
+        &:before {
+            @media #{$mq-sm-max} {
+                content: none;
+            }
+        }
+
+        &:after {
+            @media #{$mq-sm-max} {
+                font-size: .25rem;
+                letter-spacing: normal;
+                opacity: 1;
+                padding: .1rem .2rem;
+                border-radius: .05rem;
+            }
+        }
+
+        &[data-balloon-pos="left"]:after {
+            @media #{$mq-sm-max} {
+                right: 70%;
+            }
+        }
+
+        &[data-balloon-pos="right"]:after {
+            @media #{$mq-sm-max} {
+                left: 70%;
+            }
+        }
+
+        &[data-balloon-pos="up"]:after {
+            @media #{$mq-sm-max} {
+                bottom: 70%;
+            }
+        }
+
+        &[data-balloon-pos="down"]:after {
+            @media #{$mq-sm-max} {
+                top: 70%;
+            }
+        }
+
         &.pin-01 {
             top: 34.3%;
             left: 13.5%;

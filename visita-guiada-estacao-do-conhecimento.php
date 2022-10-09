@@ -329,7 +329,7 @@
 								<div class="top">
 
 									<h2 class="title-big trapeze-title">
-										<span>Textos</span>
+										<span>Mais Informações</span>
 									</h2>
 
 									<div class="text-nav text-medium">
@@ -478,6 +478,7 @@
 
 			<footer>
 				<script src="assets/js/framework.js"></script>
+				<script src="assets/js/tour-internal.js"></script>
 				<script src="assets/js/tour-internal-01.js"></script>
 			</footer>
 
