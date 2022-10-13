@@ -1,0 +1,49 @@
+.popup {
+    display: none;
+
+    .box {
+        background-color: $white;
+        width: 960px;
+        margin: 3rem auto;
+        max-width: calc(100% - 2rem);
+        padding: 4rem 1rem;
+        position: relative;
+        z-index: 1;
+        transform: skewY(-3deg);
+
+        @media #{$mq-lg-min} {
+            padding: 5rem 2rem;
+        }
+
+        .fix {
+            transform: skewY(3deg);
+
+            .title {
+                position: relative;
+                z-index: 1;
+                display: inline-block;
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    z-index: -1;
+                    top: -10%;
+                    left: -20%;
+                    width: 130%;
+                    height: 120%;
+                    background-color: $yellow;
+                    transform: perspective(1cm) rotateY(-1deg) rotateX(1deg);
+                }
+            }
+
+            .desc {
+                display: block;
+                margin: 2rem auto;
+
+                @media #{$mq-md-min} {
+                    margin: 3rem auto;
+                }
+            }
+        }
+    }
+}

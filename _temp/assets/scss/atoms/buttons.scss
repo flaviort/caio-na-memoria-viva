@@ -1,0 +1,93 @@
+.black-button {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background-color: $black;
+    color: $white;
+    transition: .3s;
+    padding: .75rem 2rem;
+
+    @media #{$mq-md-min} {
+        padding: 1rem 3rem;
+    }
+
+    @media #{$mq-lg-min} {
+        padding: 1.25rem 4rem;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $yellow;
+        color: $black;
+    }
+}
+
+.hollow-black-button {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background-color: transparent;
+    border: 1px solid $black;
+    color: $black;
+    transition: .3s;
+    padding: .75rem 2rem;
+
+    @media #{$mq-md-min} {
+        padding: 1rem 3rem;
+    }
+
+    @media #{$mq-lg-min} {
+        padding: 1.25rem 4rem;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $black;
+        color: $white;
+    }
+}
+
+.yellow-button {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    background-color: $yellow;
+    color: $black;
+    transition: .3s;
+    padding: .75rem 2rem;
+
+    @media #{$mq-md-min} {
+        padding: 1rem 3rem;
+    }
+
+    @media #{$mq-lg-min} {
+        padding: 1.25rem 4rem;
+    }
+
+    &:hover,
+    &:focus {
+        background-color: $white;
+        color: $black;
+    }
+}
+
+.hover-multiple-lines {
+    --border-color: currentColor;
+    --border-width: 1px;
+    --bottom-distance: 0px;
+    display: inline;
+    background-image: linear-gradient(var(--border-color), var(--border-color));
+    background-size: 0% var(--border-width);
+    background-repeat: no-repeat;
+    transition: background-size 0.5s;
+    background-position: 0 calc(100% - var(--bottom-distance));
+
+    @media #{$mq-sm-min} {
+        --border-width: 2px;
+    }
+
+    &:hover,
+    &:focus {
+        background-size: 100% var(--border-width);
+    }
+}

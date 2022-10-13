@@ -1,0 +1,25 @@
+.tour-points {
+    button,
+    a {
+        display: block;
+        width: 100%;
+        text-align: left;
+        background-color: $almost-white;
+        padding: 1rem 1.5rem;
+        margin-bottom: 5px;
+        color: $black;
+
+        @media #{$mq-sm-min} {
+            margin-bottom: 15px;
+        }
+
+        &:before {
+            background-color: $yellow;
+        }
+
+        &:hover,
+        &:focus {
+            color: $black;
+        }
+    }
+}

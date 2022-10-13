@@ -1,0 +1,38 @@
+/*----------------------------------------
+------------------------------------------
+	## WP ADMIN
+------------------------------------------
+----------------------------------------*/
+
+html[lang="pt-BR"],
+html[lang="en-US"] {
+	margin-top: 0!important;
+}
+
+body #wpadminbar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	top: auto;
+	right: auto;
+	opacity: .8;
+}
+
+body #wpadminbar:hover {
+	opacity: 1;
+}
+
+#bwg_slideshow_play_pause_0,
+.bwg_ctrl_btn_container,
+.bwg_toggle_container {
+	display: none;
+}
+
+.bwg_slideshow .bwg_slideshow_dots_container_0 {
+	bottom: .5rem!important;
+}
+
+.bwg_slideshow_dots_active_0 {
+	border: none!important;
+	background-color: $yellow!important;
+}

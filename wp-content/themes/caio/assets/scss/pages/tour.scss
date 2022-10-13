@@ -1,0 +1,25 @@
+body.tour {
+	#middle {
+        padding: 0 0 3rem 0;
+
+        @media #{$mq-sm-min} {
+            padding-bottom: 4rem;
+        }
+
+        @media #{$mq-md-min} {
+            padding: 4rem 0 6rem 0;
+        }
+
+        @media #{$mq-lg-min} {
+            padding-bottom: 8rem;
+        }
+
+        @media #{$mq-xl-min} {
+            padding: 5rem 0 10rem 0;
+        }
+
+        .desc {
+            display: block;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+#partners {
+    .desk {
+        display: none;
+        width: 100%;
+        margin: 0 auto;
+
+        @media #{$mq-lg-min} {
+            display: block;
+        }
+    }
+
+    .tablet {
+        display: none;
+        width: 100%;
+        margin: 0 auto;
+
+        @media #{$mq-sm-min} {
+            display: block;
+        }
+
+        @media #{$mq-lg-min} {
+            display: none;
+        }
+    }
+
+    .mob {
+        display: block;
+        max-width: 100%;
+        width: 250px;
+        margin: 0 auto;
+
+        @media #{$mq-sm-min} {
+            display: none;
+        }
+    }
+}

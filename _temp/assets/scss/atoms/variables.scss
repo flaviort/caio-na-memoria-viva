@@ -6,9 +6,16 @@ $mq-lg-min: "only screen and (min-width: 993px)";
 $mq-xl-min: "only screen and (min-width: 1201px)";
 $mq-2xl-min: "only screen and (min-width: 1601px)";
 
+$mq-xs-max: "only screen and (max-width: 420px)";
+$mq-sm-max: "only screen and (max-width: 575px)";
+$mq-md-max: "only screen and (max-width: 767px)";
+$mq-lg-max: "only screen and (max-width: 992px)";
+$mq-xl-max: "only screen and (max-width: 1200px)";
+$mq-2xl-max: "only screen and (max-width: 1600px)";
+
 // fonts
-$source: 			    'Source Serif Pro', serif;
 $rock-salt: 		    'Rock Salt', cursive;
+$source: 		    	'Source Serif Pro', serif;
 
 // weights
 $light: 				300;
@@ -29,3 +36,6 @@ $gray-darkest:			#111;
 $black:					#000;
 
 $red:					#e11919;
+
+$yellow:                #fbef3a;
+$yellow-dark:           #ffd821;
