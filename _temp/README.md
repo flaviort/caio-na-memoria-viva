@@ -1,1 +1,0 @@
-# Caio na Memória Viva
