@@ -27,11 +27,9 @@
 
 					<div class="image" style="background-image: url('<?=get_site_url()?>/wp-content/themes/caio/assets/img/banner-projeto.jpg');">
 
-						<?php if( get_field('direitos_autorais_banner') ) { ?>
-							<p class="text-small photo-rights">
-								<?php the_field('direitos_autorais_banner'); ?>
-							</p>
-						<?php } ?>
+						<p class="text-small photo-rights">
+							Foto: Marcos Santili
+						</p>
 
 						<img src="<?=get_site_url()?>/wp-content/themes/caio/assets/img/sunflower.png" alt="Girassol" class="sunflower-01">
 						<img src="<?=get_site_url()?>/wp-content/themes/caio/assets/img/sunflower-blur-01.png" alt="Girassol" class="sunflower-02">

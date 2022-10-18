@@ -355,3 +355,8 @@ input:-webkit-autofill:focus {
 input[data-autocompleted] {
     background-color: transparent!important;
 }
+
+.grecaptcha-badge {
+    visibility: hidden;
+    pointer-events: none;
+}

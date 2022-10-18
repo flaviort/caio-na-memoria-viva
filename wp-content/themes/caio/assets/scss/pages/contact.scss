@@ -144,6 +144,24 @@ body.contact {
                 border: none;
                 cursor: pointer;
             }
+
+            .wpcf7-response-output,
+            .wpcf7-not-valid-tip {
+                display: none!important;
+            }
+
+            .wpcf7-spinner {
+                float: right;
+                margin: 13px 0 0 0;
+
+                @media #{$mq-md-min} {
+                    margin-top: 18px;
+                }
+
+                @media #{$mq-lg-min} {
+                    margin-top: 20px;
+                }
+            }
         }
     }
 }

@@ -10,31 +10,31 @@ function newsletter(){
     }, 10);
 };
 
-$("#form-send").click(function(){
-    $(".wpcf7-form").validate({
-        highlight: function (element){
-            $(element).closest(".form-line").addClass("error");
-        },
-        unhighlight: function (element){
-            $(element).closest(".form-line").removeClass("error");
-        },
-        rules: {
-            Nome: "required",
-            Email: "required",
-            Mensagem: "required"
-        },
-        messages: {
-            Nome: "Este campo é obrigatório",
-            Email: "Este campo é obrigatório",
-            Mensagem: "Este campo é obrigatório"
-        }
-    });
+var name = 'your-name';
+
+$(".wpcf7-form").validate({
+    highlight: function (element){
+        $(element).closest(".form-line").addClass("error");
+    },
+    unhighlight: function (element){
+        $(element).closest(".form-line").removeClass("error");
+    },
+    rules: {
+        'your-name': "required",
+        'your-email': "required",
+        'your-message': "required"
+    },
+    messages: {
+        'your-name': "Este campo é obrigatório",
+        'your-email': "Este campo é obrigatório",
+        'your-message': "Este campo é obrigatório"
+    }
 });
 
-$('.wpcf7').on('wpcf7submit', function (){ 
-    
+$('.wpcf7-form').on('wpcf7submit', function (){ 
+    $.fancybox.open($("#contact-success"));
 });
 
-$('.wpcf7').on('wpcf7invalid', function (){ 
-    
+$('.wpcf7-form').on('wpcf7invalid', function (){ 
+    $.fancybox.open($("#contact-error"));
 });

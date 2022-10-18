@@ -9,6 +9,8 @@ $('#show-more').click(function(){
 var gallery_slider = new Swiper ('.gallery-slider', {
 	slidesPerView: 1.2,
 	loop: true,
+	preloadImages: false,
+    lazy: true,
 	simulateTouch: true,
 	autoHeight: true,
 	calculateHeight: true,
