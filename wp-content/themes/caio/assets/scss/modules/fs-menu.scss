@@ -72,9 +72,13 @@
         display: flex;
         align-items: center;
         padding-left: 30px;
-        min-height: 97vh;
-        padding-top: 80px;
+        min-height: 96vh;
         padding-bottom: 50px;
+
+        @media #{$mq-sm-min} {
+            padding-top: 80px;
+            min-height: 97vh;
+        }
 
         li {
             opacity: 0;
@@ -82,7 +86,7 @@
             transition: .3s;
 
             a {
-                font-size: 12vw;
+                font-size: 9vw;
                 font-weight: $bold;
                 line-height: .8;
                 margin: 4vh 0;
@@ -93,7 +97,6 @@
 
                 @media #{$mq-sm-min} {
                     margin: 5vh 0;
-                    font-size: 9.5vw;
                 }
 
                 @media #{$mq-lg-min} {

@@ -142,6 +142,10 @@
 						Fazem parte da AACF artistas, associados e demais voluntários que, através do blog <a href="http://associacaocaiof.blogspot.com/" target="_blank">www.associacaocaiof.blogspot.com</a> e das mídias sociais.
 					</p>
 
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLScJVb8f5VtdOSgFT5mCRT8k3_G_euxNH6pGxFUwx0zb6kQ2Qg/viewform" target="_blank" class="black-button text-medium">
+						Associe-se
+					</a>
+
 				</div>
 
 			</div>

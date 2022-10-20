@@ -135,10 +135,6 @@
 
 					</div>
 
-					<a href="tel:+55-21-22876299" class="yellow-button text-medium">
-						+55 (21) 2287-6299
-					</a>
-
 				</div>
 			</div>
 		</div>

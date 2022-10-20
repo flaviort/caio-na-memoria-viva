@@ -292,6 +292,7 @@
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/55.jpg" data-fancybox="sala-1"></a>
     <a data-type="iframe" data-src="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/jucara.mp3" href="javascript:;" data-fancybox="sala-1"></a>
     <a data-type="iframe" data-src="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/otilia.mp3" href="javascript:;" data-fancybox="sala-1"></a>
+    <a data-type="iframe" data-src="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/benedita.mp3" href="javascript:;" data-fancybox="sala-1"></a>
 
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-2/02.jpg" data-fancybox="sala-2"></a>
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-2/03.jpg" data-fancybox="sala-2"></a>
