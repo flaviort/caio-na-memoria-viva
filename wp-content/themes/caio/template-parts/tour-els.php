@@ -1,11 +1,7 @@
 <div id="tour-els">
 
     <!-- 02 - rua dos poetas / início -->
-    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/02/fotos/01.jpg" data-fancybox="rua-dos-poetas-inicio"></a>
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/02/fotos/02.jpg" data-fancybox="rua-dos-poetas-inicio"></a>
-    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/02/fotos/03.jpg" data-fancybox="rua-dos-poetas-inicio"></a>
-    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/02/fotos/04.jpg" data-fancybox="rua-dos-poetas-inicio"></a>
-    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/02/fotos/05.jpg" data-fancybox="rua-dos-poetas-inicio"></a>
     <a href="#02-0-01" data-fancybox="rua-dos-poetas-inicio"></a>
     <a href="#02-0-02" data-fancybox="rua-dos-poetas-inicio"></a>
 
@@ -479,11 +475,8 @@
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-8/11.jpg" data-fancybox="sala-8"></a>
 
     <!-- 05 - casa caio -->
-    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/05/fotos/01.jpg" data-fancybox="casa-caio"></a>
-    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/05/fotos/02.jpg" data-fancybox="casa-caio"></a>
-    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/05/fotos/03.jpg" data-fancybox="casa-caio"></a>
-    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/05/fotos/04.jpg" data-fancybox="casa-caio"></a>
-    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/05/fotos/05.jpg" data-fancybox="casa-caio"></a>
+    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/05/fotos/01.jpg" data-fancybox="casa-caio" data-caption="Será que cuidamos do nosso Patrimônio? Em Santiago a Casa onde Caio cresceu se transformou em uma casa de tintas."></a>
+    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/05/fotos/04.jpg" data-fancybox="casa-caio" data-caption="Será que cuidamos do nosso Patrimônio? Em Santiago a Casa onde Caio cresceu se transformou em uma casa de tintas."></a>
 
     <!-- 06 - coqueiros oracy -->
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/06/fotos/01.jpg" data-fancybox="coqueiros-oracy"></a>

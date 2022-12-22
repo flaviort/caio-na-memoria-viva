@@ -25,12 +25,8 @@
         <a href="../../assets/img/tour/03/fotos/lateral/02.jpg" data-fancybox="lateral" data-caption="Lateral"></a>
         <a href="../../assets/img/tour/03/fotos/lateral/03.jpg" data-fancybox="lateral" data-caption="Lateral"></a>
 
-        <a href="../../assets/img/tour/03/fotos/monumento/01.jpg" data-fancybox="monumento" data-caption="Monumento Centro" id="monumento"></a>
-        <a href="../../assets/img/tour/03/fotos/monumento/02.jpg" data-fancybox="monumento" data-caption="Monumento Centro"></a>
-        <a href="../../assets/img/tour/03/fotos/monumento/03.jpg" data-fancybox="monumento" data-caption="Monumento Centro"></a>
-        <a href="../../assets/img/tour/03/fotos/monumento/04.jpg" data-fancybox="monumento" data-caption="Monumento Centro"></a>
+        <a href="../../assets/img/tour/03/fotos/monumento/04.jpg" data-fancybox="monumento" data-caption="Monumento Centro" id="monumento"></a>
         <a href="../../assets/img/tour/03/fotos/monumento/05.jpg" data-fancybox="monumento" data-caption="Monumento Centro"></a>
-        <a href="../../assets/img/tour/03/fotos/monumento/06.jpg" data-fancybox="monumento" data-caption="Monumento Centro"></a>
 
         <a href="../../assets/img/tour/03/fotos/monumento/01.jpg" data-fancybox="diagonal" data-caption="Entrada Diagonal" id="diagonal-01"></a>
         <a href="../../assets/img/tour/03/fotos/monumento/02.jpg" data-fancybox="diagonal" data-caption="Entrada Diagonal" id="diagonal-02"></a>

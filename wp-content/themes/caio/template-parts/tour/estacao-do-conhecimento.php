@@ -21,8 +21,6 @@
         <a href="../../assets/img/tour/01/fotos/dentro/04.jpg" data-fancybox="por-dentro" data-caption="Painéis Caio"></a>
         <a href="../../assets/img/tour/01/fotos/dentro/05.jpg" data-fancybox="por-dentro" data-caption="Painéis"></a>
         <a href="../../assets/img/tour/01/fotos/folder/01.jpg" data-fancybox="por-dentro"></a>
-        <a href="../../assets/img/tour/01/fotos/folder/02.jpg" data-fancybox="por-dentro"></a>
-        <a href="../../assets/img/tour/01/fotos/folder/03.jpg" data-fancybox="por-dentro"></a>
         <a href="../../assets/img/tour/01/fotos/folder/04.jpg" data-fancybox="por-dentro"></a>
 
         <a href="#01" data-fancybox="por-dentro"></a>
@@ -110,21 +108,9 @@
             </div>
         </div>
 
-        <a href="../../assets/img/tour/01/fotos/predio/01.jpg" data-fancybox="predio-frente" id="predio-frente"></a>
-        <a href="../../assets/img/tour/01/fotos/predio/02.jpg" data-fancybox="predio-frente"></a>
-        <a href="../../assets/img/tour/01/fotos/predio/03.jpg" data-fancybox="predio-frente"></a>
-        <a href="../../assets/img/tour/01/fotos/predio/04.jpg" data-fancybox="predio-frente"></a>
-        <a href="../../assets/img/tour/01/fotos/predio/05.jpg" data-fancybox="predio-frente"></a>
-        <a href="../../assets/img/tour/01/fotos/predio/06.jpg" data-fancybox="predio-frente"></a>
-        <a href="../../assets/img/tour/01/fotos/predio/07.jpg" data-fancybox="predio-frente"></a>
+        <a href="../../assets/img/tour/01/fotos/predio/03.jpg" data-fancybox="predio-frente" id="predio-frente"></a>
         <a href="../../assets/img/tour/01/fotos/predio/08.jpg" data-fancybox="predio-frente"></a>
-        <a href="../../assets/img/tour/01/fotos/predio/09.jpg" data-fancybox="predio-frente"></a>
-        <a href="../../assets/img/tour/01/fotos/predio/10.jpg" data-fancybox="predio-frente"></a>
-        <a href="../../assets/img/tour/01/fotos/predio/11.jpg" data-fancybox="predio-frente"></a>
         <a href="../../assets/img/tour/01/fotos/predio/12.jpg" data-fancybox="predio-frente"></a>
-        <a href="../../assets/img/tour/01/fotos/predio/13.jpg" data-fancybox="predio-frente"></a>
-        <a href="../../assets/img/tour/01/fotos/predio/14.jpg" data-fancybox="predio-frente"></a>
-        <a href="../../assets/img/tour/01/fotos/predio/15.jpg" data-fancybox="predio-frente"></a>
 
         <a href="../../assets/img/tour/01/fotos/predio/16.jpg" data-fancybox="trilhos" id="trilhos"></a>
         <a href="../../assets/img/tour/01/fotos/predio/17.jpg" data-fancybox="trilhos"></a>

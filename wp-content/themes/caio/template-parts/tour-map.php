@@ -12,7 +12,7 @@
 
         <a data-fancybox-trigger="rua-dos-poetas-inicio" href="javascript:;" class="pin pin-02-0" aria-label="Rua dos Poetas - Início" data-balloon-pos="left">
             <span class="circle"></span>
-            <b>2.0</b>
+            <b>2</b>
         </a>
 
         <a href="<?=get_site_url()?>/wp-content/themes/caio/template-parts/tour/aureliano-de-figueiredo-pinto.php" data-fancybox data-type="iframe" class="pin pin-02-1" aria-label="Aureliano de Figueiredo Pinto" data-balloon-pos="right">

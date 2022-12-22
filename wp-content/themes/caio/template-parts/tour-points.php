@@ -6,7 +6,7 @@
 
 <div class="col-sm-6 col-lg-4">
     <a data-fancybox-trigger="rua-dos-poetas-inicio" href="javascript:;" class="hvr-bounce-to-right">
-        <b>2.0)</b> Rua dos Poetas - Início
+        <b>2)</b> Rua dos Poetas - Início
     </a>
 </div>
 

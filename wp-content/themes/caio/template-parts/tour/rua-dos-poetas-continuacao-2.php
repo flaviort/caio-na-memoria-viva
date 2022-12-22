@@ -7,7 +7,7 @@
 
     <div class="details">
         <p class="text-small">
-            Clique sobre os "i" para saber mais.
+            Ao longo da rua dos poetas encontramos 29 totens, cada um homenageia um escritor nascido na cidade. Clique sobre os "i" para saber mais.
         </p>
     </div>
 
@@ -15,9 +15,7 @@
 
     <div class="hidden-els">
 
-        <a href="../../assets/img/tour/02-3/fotos/tulio/01.jpg" data-fancybox="tulio" id="tulio"></a>
-        <a href="../../assets/img/tour/02-3/fotos/tulio/02.jpg" data-fancybox="tulio"></a>
-        <a href="../../assets/img/tour/02-3/fotos/tulio/03.jpg" data-fancybox="tulio"></a>
+        <a href="../../assets/img/tour/02-3/fotos/tulio/03.jpg" data-fancybox="tulio" id="tulio"></a>
         <a href="../../assets/img/tour/02-3/fotos/tulio/04.jpg" data-fancybox="tulio"></a>
 
         <a href="#02-3-01" data-fancybox="tulio"></a>
@@ -136,11 +134,9 @@
         <a href="../../assets/img/tour/02-3/fotos/outras/02.jpg" data-fancybox="rua"></a>
         <a href="../../assets/img/tour/02-3/fotos/outras/03.jpg" data-fancybox="rua"></a>
 
-        <a href="../../assets/img/tour/02-3/fotos/caio/01.jpg" data-fancybox="caio" id="caio"></a>
-        <a href="../../assets/img/tour/02-3/fotos/caio/02.jpg" data-fancybox="caio"></a>
-        <a href="../../assets/img/tour/02-3/fotos/caio/03.jpg" data-fancybox="caio"></a>
-        <a href="../../assets/img/tour/02-3/fotos/caio/06.jpg" data-fancybox="caio"></a>
-        <a href="../../assets/img/tour/02-3/fotos/caio/07.jpg" data-fancybox="caio"></a>
+        <a href="../../assets/img/tour/02-3/fotos/caio/07.jpg" data-fancybox="caio" id="caio" data-caption="“Tenho amigos tão bonitos. Ninguém suspeita, mas sou uma pessoa muito rica.” Caio F. Carta à Jacqueline Cantore In: Caio Fernando Abreu: cartas. Org: Italo Moricon"></a>
+        <a href="../../assets/img/tour/02-3/fotos/caio/02.jpg" data-fancybox="caio" data-caption="“Tenho amigos tão bonitos. Ninguém suspeita, mas sou uma pessoa muito rica.” Caio F. Carta à Jacqueline Cantore In: Caio Fernando Abreu: cartas. Org: Italo Moricon"></a>
+        <a href="../../assets/img/tour/02-3/fotos/caio/06.jpg" data-fancybox="caio" data-caption="“Tenho amigos tão bonitos. Ninguém suspeita, mas sou uma pessoa muito rica.” Caio F. Carta à Jacqueline Cantore In: Caio Fernando Abreu: cartas. Org: Italo Moricon"></a>
 
     </div>
 

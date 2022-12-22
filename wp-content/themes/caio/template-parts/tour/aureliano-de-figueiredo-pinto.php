@@ -17,8 +17,6 @@
 
         <a href="../../assets/img/tour/02-1/fotos/01.jpg" data-fancybox="fotos" id="fotos"></a>
         <a href="../../assets/img/tour/02-1/fotos/02.jpg" data-fancybox="fotos"></a>
-        <a href="../../assets/img/tour/02-1/fotos/03.jpg" data-fancybox="fotos"></a>
-        <a href="../../assets/img/tour/02-1/fotos/04.jpg" data-fancybox="fotos"></a>
 
         <a href="#02-1-01" data-fancybox="fotos"></a>
         <a href="#02-1-02" data-fancybox="fotos"></a>

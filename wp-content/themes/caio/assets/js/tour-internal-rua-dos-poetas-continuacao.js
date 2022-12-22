@@ -48,6 +48,6 @@ infospot_01_03.addEventListener('click', function(){
 
 panorama_01.add(
 	infospot_01_01,
-	infospot_01_02,
+	//infospot_01_02,
 	infospot_01_03
 );

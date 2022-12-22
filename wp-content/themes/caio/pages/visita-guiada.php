@@ -59,7 +59,10 @@
 				<div class="col-12">
 
 					<p class="text-medium desc">
-						Para saber mais sobre cada ponto de interesse, clique nos "números" animados no mapa. Clique e arraste o mouse para descobrir mais pontos!
+						<strong>VISITE SANTIAGO - A CIDADE DA POESIA.</strong><br />
+						Para saber mais sobre cada ponto de interesse, clique nos "números" animados no mapa. Clique e arraste o mouse para descobrir mais pontos!<br /><br />
+						
+						Créditos de todas as fotos: <strong>Elias Alfonso</strong>
 					</p>
 
 					<?php get_template_part('template-parts/tour-map', 'none') ?>

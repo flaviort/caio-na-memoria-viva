@@ -88,6 +88,6 @@ panorama_01.add(
 	infospot_01_04,
 	infospot_01_05,
 	infospot_01_06,
-	infospot_01_07,
-	infospot_01_08
+	//infospot_01_07,
+	//infospot_01_08
 );

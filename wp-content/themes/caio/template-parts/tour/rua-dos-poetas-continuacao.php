@@ -15,10 +15,7 @@
 
     <div class="hidden-els">
 
-        <a href="../../assets/img/tour/02-2/fotos/01.jpg" data-fancybox="gallery-01" id="gallery-01"></a>
-        <a href="../../assets/img/tour/02-2/fotos/02.jpg" data-fancybox="gallery-01"></a>
-        <a href="../../assets/img/tour/02-2/fotos/03.jpg" data-fancybox="gallery-01"></a>
-        <a href="../../assets/img/tour/02-2/fotos/04.jpg" data-fancybox="gallery-01"></a>
+        <a href="../../assets/img/tour/02-2/fotos/04.jpg" data-fancybox="gallery-01" id="gallery-01"></a>
         <a href="../../assets/img/tour/02-2/fotos/05.jpg" data-fancybox="gallery-01"></a>
 
         <a href="../../assets/img/tour/02-2/fotos/06.jpg" data-fancybox="gallery-02" id="gallery-02"></a>
