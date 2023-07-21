@@ -1,7 +1,11 @@
 <div id="tour-els">
 
     <!-- 02 - rua dos poetas / início -->
+    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/02/fotos/01.jpg" data-fancybox="rua-dos-poetas-inicio"></a>
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/02/fotos/02.jpg" data-fancybox="rua-dos-poetas-inicio"></a>
+    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/02/fotos/03.jpg" data-fancybox="rua-dos-poetas-inicio"></a>
+    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/02/fotos/04.jpg" data-fancybox="rua-dos-poetas-inicio"></a>
+    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/02/fotos/05.jpg" data-fancybox="rua-dos-poetas-inicio"></a>
     <a href="#02-0-01" data-fancybox="rua-dos-poetas-inicio"></a>
     <a href="#02-0-02" data-fancybox="rua-dos-poetas-inicio"></a>
 
@@ -238,7 +242,7 @@
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/05.jpg" data-fancybox="sala-1"></a>
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/06.jpg" data-fancybox="sala-1"></a>
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/07.jpg" data-fancybox="sala-1"></a>
-    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/08.jpg" data-fancybox="sala-1"></a>
+    <a data-type="inline" href="#audio-02" data-fancybox="sala-1"></a>
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/09.jpg" data-fancybox="sala-1"></a>
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/10.jpg" data-fancybox="sala-1"></a>
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/11.jpg" data-fancybox="sala-1"></a>
@@ -247,7 +251,7 @@
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/14.jpg" data-fancybox="sala-1"></a>
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/15.jpg" data-fancybox="sala-1"></a>
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/16.jpg" data-fancybox="sala-1"></a>
-    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/17.jpg" data-fancybox="sala-1"></a>
+    <a data-type="inline" href="#audio-03" data-fancybox="sala-1"></a>
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/18.jpg" data-fancybox="sala-1"></a>
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/19.jpg" data-fancybox="sala-1"></a>
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/20.jpg" data-fancybox="sala-1"></a>
@@ -284,11 +288,62 @@
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/51.jpg" data-fancybox="sala-1"></a>
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/52.jpg" data-fancybox="sala-1"></a>
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/53.jpg" data-fancybox="sala-1"></a>
-    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/54.jpg" data-fancybox="sala-1"></a>
+    <a data-type="inline" href="#audio-01" data-fancybox="sala-1"></a>
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/55.jpg" data-fancybox="sala-1"></a>
-    <a data-type="iframe" data-src="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/jucara.mp3" href="javascript:;" data-fancybox="sala-1"></a>
-    <a data-type="iframe" data-src="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/otilia.mp3" href="javascript:;" data-fancybox="sala-1"></a>
-    <a data-type="iframe" data-src="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/benedita.mp3" href="javascript:;" data-fancybox="sala-1"></a>
+
+    <div id="audio-01" class="popup-audio" style="display: none">
+        <div class="wrap">
+
+            <p class="side-message">
+                Clique na franga para ouvir o áudio: Juçara
+            </p>
+
+            <audio controls id="audio-message-01">
+                <source src="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/jucara.mp3" type="audio/mpeg">
+            </audio>
+
+            <button onclick="var audio=document.getElementById('audio-message-01'); audio.paused?audio.play():audio.pause()">
+                <img src="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/54.jpg" alt="Franga" />
+            </button>
+
+        </div>
+    </div>
+
+    <div id="audio-02" class="popup-audio" style="display: none">
+        <div class="wrap">
+
+            <p class="side-message">
+                Clique na franga para ouvir o áudio: Otilia
+            </p>
+
+            <audio controls id="audio-message-02">
+                <source src="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/otilia.mp3" type="audio/mpeg">
+            </audio>
+
+            <button onclick="var audio=document.getElementById('audio-message-02'); audio.paused?audio.play():audio.pause()">
+                <img src="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/08.jpg" alt="Franga" />
+            </button>
+
+        </div>
+    </div>
+
+    <div id="audio-03" class="popup-audio" style="display: none">
+        <div class="wrap">
+
+            <p class="side-message">
+                Clique na franga para ouvir o áudio: Benedita
+            </p>
+
+            <audio controls id="audio-message-03">
+                <source src="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/benedita.mp3" type="audio/mpeg">
+            </audio>
+
+            <button onclick="var audio=document.getElementById('audio-message-03'); audio.paused?audio.play():audio.pause()">
+                <img src="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-1/17.jpg" alt="Franga" />
+            </button>
+
+        </div>
+    </div>
 
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-2/02.jpg" data-fancybox="sala-2"></a>
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-2/03.jpg" data-fancybox="sala-2"></a>
@@ -475,8 +530,11 @@
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/04/sala-8/11.jpg" data-fancybox="sala-8"></a>
 
     <!-- 05 - casa caio -->
-    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/05/fotos/01.jpg" data-fancybox="casa-caio" data-caption="Será que cuidamos do nosso Patrimônio? Em Santiago a Casa onde Caio cresceu se transformou em uma casa de tintas."></a>
-    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/05/fotos/04.jpg" data-fancybox="casa-caio" data-caption="Será que cuidamos do nosso Patrimônio? Em Santiago a Casa onde Caio cresceu se transformou em uma casa de tintas."></a>
+    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/05/fotos/01.jpg" data-fancybox="casa-caio"></a>
+    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/05/fotos/02.jpg" data-fancybox="casa-caio"></a>
+    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/05/fotos/03.jpg" data-fancybox="casa-caio"></a>
+    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/05/fotos/04.jpg" data-fancybox="casa-caio"></a>
+    <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/05/fotos/05.jpg" data-fancybox="casa-caio"></a>
 
     <!-- 06 - coqueiros oracy -->
     <a href="<?=get_site_url()?>/wp-content/themes/caio/assets/img/tour/06/fotos/01.jpg" data-fancybox="coqueiros-oracy"></a>

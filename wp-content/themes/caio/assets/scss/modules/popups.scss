@@ -47,3 +47,32 @@
         }
     }
 }
+
+.popup-audio {
+    display: none;
+
+    .wrap {
+        position: relative;
+
+        img {
+            max-height: calc(100vh - 88px);
+        }
+
+        audio {
+            position: absolute;
+            z-index: 3;
+            top: 1rem;
+            left: 1rem;
+        }
+
+        .side-message {
+            position: absolute;
+            z-index: 2;
+            bottom: 0;
+            right: 0;
+            background-color: $black;
+            color: $white;
+            padding: 1rem;
+        }
+    }
+}
